@@ -67,7 +67,6 @@
             this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxArticulo.TabIndex = 1;
             this.pbxArticulo.TabStop = false;
-            this.pbxArticulo.Click += new System.EventHandler(this.pbxArticulo_Click);
             // 
             // lblFlitroRapido
             // 
@@ -134,7 +133,6 @@
             this.lblCampo.Size = new System.Drawing.Size(43, 13);
             this.lblCampo.TabIndex = 8;
             this.lblCampo.Text = "Campo:";
-            this.lblCampo.Click += new System.EventHandler(this.label1_Click);
             // 
             // cboCampo
             // 
@@ -154,7 +152,6 @@
             this.lblCriterio.Size = new System.Drawing.Size(42, 13);
             this.lblCriterio.TabIndex = 10;
             this.lblCriterio.Text = "Criterio:";
-            this.lblCriterio.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // cboCriterio
             // 
@@ -212,6 +209,7 @@
             this.Controls.Add(this.pbxArticulo);
             this.Controls.Add(this.dgvArticulos);
             this.Name = "frmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Presentación";
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulos)).EndInit();

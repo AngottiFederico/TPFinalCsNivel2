@@ -62,12 +62,7 @@ namespace Presentacion
             {
                 pbxArticulo.Load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQPpf7UgQjAfrXDj_965DrqqKv00L6FLO5yBDhy2rLXFDAQAxUnA7C0f7UN4gZMi72cEE&usqp=CAU");
             }
-        }
-
-        private void pbxArticulo_Click(object sender, EventArgs e)
-        {
-            
-        }
+        }     
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
         {
@@ -77,17 +72,7 @@ namespace Presentacion
                 cargarImagen(seleccionado.ImagenUrl);
             }
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
+     
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             frmAltaArticulo alta = new frmAltaArticulo();
@@ -116,8 +101,7 @@ namespace Presentacion
             {
 
                 MessageBox.Show(ex.ToString());
-            }
-          
+            }         
 
         }
 

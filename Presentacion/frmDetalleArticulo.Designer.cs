@@ -39,12 +39,13 @@
             this.lblCatDetalle2 = new System.Windows.Forms.Label();
             this.lblPrecioDetalle1 = new System.Windows.Forms.Label();
             this.lblPrecioDetalle2 = new System.Windows.Forms.Label();
+            this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbxDetalle)).BeginInit();
             this.SuspendLayout();
             // 
             // pbxDetalle
             // 
-            this.pbxDetalle.Location = new System.Drawing.Point(93, 88);
+            this.pbxDetalle.Location = new System.Drawing.Point(85, 88);
             this.pbxDetalle.Name = "pbxDetalle";
             this.pbxDetalle.Size = new System.Drawing.Size(278, 219);
             this.pbxDetalle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -66,7 +67,7 @@
             // 
             this.lblDescDetalle.AutoSize = true;
             this.lblDescDetalle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.4F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescDetalle.Location = new System.Drawing.Point(140, 323);
+            this.lblDescDetalle.Location = new System.Drawing.Point(132, 323);
             this.lblDescDetalle.Name = "lblDescDetalle";
             this.lblDescDetalle.Size = new System.Drawing.Size(185, 29);
             this.lblDescDetalle.TabIndex = 2;
@@ -149,11 +150,23 @@
             this.lblPrecioDetalle2.Size = new System.Drawing.Size(0, 16);
             this.lblPrecioDetalle2.TabIndex = 10;
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnVolver.Location = new System.Drawing.Point(187, 462);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(75, 23);
+            this.btnVolver.TabIndex = 11;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // frmDetalle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 458);
+            this.ClientSize = new System.Drawing.Size(449, 506);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.lblPrecioDetalle2);
             this.Controls.Add(this.lblPrecioDetalle1);
             this.Controls.Add(this.lblCatDetalle2);
@@ -166,6 +179,7 @@
             this.Controls.Add(this.lblNombreDetalle);
             this.Controls.Add(this.pbxDetalle);
             this.Name = "frmDetalle";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detalle del artículo";
             this.Load += new System.EventHandler(this.frmDetalle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbxDetalle)).EndInit();
@@ -187,5 +201,6 @@
         private System.Windows.Forms.Label lblCatDetalle2;
         private System.Windows.Forms.Label lblPrecioDetalle1;
         private System.Windows.Forms.Label lblPrecioDetalle2;
+        private System.Windows.Forms.Button btnVolver;
     }
 }
