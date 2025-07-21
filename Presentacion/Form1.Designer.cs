@@ -82,7 +82,7 @@
             this.txtFiltroRapido.Location = new System.Drawing.Point(80, 19);
             this.txtFiltroRapido.Name = "txtFiltroRapido";
             this.txtFiltroRapido.Size = new System.Drawing.Size(223, 20);
-            this.txtFiltroRapido.TabIndex = 3;
+            this.txtFiltroRapido.TabIndex = 0;
             this.txtFiltroRapido.TextChanged += new System.EventHandler(this.txtFiltroRapido_TextChanged);
             // 
             // btnAgregar
@@ -90,7 +90,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(12, 336);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 4;
+            this.btnAgregar.TabIndex = 1;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -100,7 +100,7 @@
             this.btnModificar.Location = new System.Drawing.Point(93, 336);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
-            this.btnModificar.TabIndex = 5;
+            this.btnModificar.TabIndex = 2;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
@@ -110,7 +110,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(174, 336);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar.TabIndex = 6;
+            this.btnEliminar.TabIndex = 3;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -120,7 +120,7 @@
             this.btnDetalle.Location = new System.Drawing.Point(255, 336);
             this.btnDetalle.Name = "btnDetalle";
             this.btnDetalle.Size = new System.Drawing.Size(75, 23);
-            this.btnDetalle.TabIndex = 7;
+            this.btnDetalle.TabIndex = 4;
             this.btnDetalle.Text = "Ver Detalle";
             this.btnDetalle.UseVisualStyleBackColor = true;
             this.btnDetalle.Click += new System.EventHandler(this.btnDetalle_Click);
@@ -141,7 +141,7 @@
             this.cboCampo.Location = new System.Drawing.Point(69, 380);
             this.cboCampo.Name = "cboCampo";
             this.cboCampo.Size = new System.Drawing.Size(110, 21);
-            this.cboCampo.TabIndex = 9;
+            this.cboCampo.TabIndex = 5;
             this.cboCampo.SelectedIndexChanged += new System.EventHandler(this.cboCampo_SelectedIndexChanged);
             // 
             // lblCriterio
@@ -160,7 +160,7 @@
             this.cboCriterio.Location = new System.Drawing.Point(249, 380);
             this.cboCriterio.Name = "cboCriterio";
             this.cboCriterio.Size = new System.Drawing.Size(121, 21);
-            this.cboCriterio.TabIndex = 11;
+            this.cboCriterio.TabIndex = 6;
             // 
             // lblFiltro
             // 
@@ -176,14 +176,14 @@
             this.txtFiltro.Location = new System.Drawing.Point(430, 380);
             this.txtFiltro.Name = "txtFiltro";
             this.txtFiltro.Size = new System.Drawing.Size(148, 20);
-            this.txtFiltro.TabIndex = 13;
+            this.txtFiltro.TabIndex = 7;
             // 
             // btnFiltro
             // 
             this.btnFiltro.Location = new System.Drawing.Point(592, 379);
             this.btnFiltro.Name = "btnFiltro";
             this.btnFiltro.Size = new System.Drawing.Size(75, 23);
-            this.btnFiltro.TabIndex = 14;
+            this.btnFiltro.TabIndex = 8;
             this.btnFiltro.Text = "Buscar";
             this.btnFiltro.UseVisualStyleBackColor = true;
             this.btnFiltro.Click += new System.EventHandler(this.btnFiltro_Click);
