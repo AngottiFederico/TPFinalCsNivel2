@@ -50,6 +50,8 @@ namespace Presentacion
         {
             dgvArticulos.Columns["ImagenUrl"].Visible = false;
             dgvArticulos.Columns["Id"].Visible = false;
+            dgvArticulos.Columns["Codigo"].Visible = false;
+
         }
 
         private void cargarImagen(string imagen)
@@ -111,6 +113,12 @@ namespace Presentacion
             Articulo seleccionado; 
             try
             {
+                if (dgvArticulos.CurrentRow == null)
+                {
+                    MessageBox.Show("Por favor, seleccione un archivo de la lista");
+                    return;
+                }
+                
                 DialogResult respuesta = MessageBox.Show("¿Desea eliminar el archivo?","Eliminar", MessageBoxButtons.YesNo, MessageBoxIcon.Warning );
                 if(respuesta == DialogResult.Yes)
                 {
