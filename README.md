@@ -1,4 +1,4 @@
-🖩<h1>🖩 TP Final – C# Nivel 2 (MaxiPrograma)</h1>
+<h1>🖩 TP Final – C# Nivel 2 (MaxiPrograma)</h1>
 <p>
 Aplicación de escritorio desarrollada en C# siguiendo el enfoque de arquitectura en capas, como trabajo práctico final del curso <strong>C# Nivel 2</strong> de MaxiPrograma.  
 El proyecto implementa un sistema CRUD con conexión a base de datos SQL Server, manejo de excepciones y una interfaz gráfica intuitiva basada en Windows Forms.
