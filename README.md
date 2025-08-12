@@ -2,7 +2,7 @@
 Aplicación de escritorio desarrollada en C# siguiendo el enfoque de arquitectura en capas, como trabajo práctico final del curso C# Nivel 2 de MaxiPrograma.
 El proyecto implementa un sistema CRUD con conexión a base de datos SQL Server, manejo de excepciones y una interfaz gráfica intuitiva basada en Windows Forms.
 
-Características Principales
+<h2>Características Principales</h2>
   🖩Gestión de registros: Altas, bajas, modificaciones y consultas de datos almacenados en base de datos.
 
   🖩Interfaz gráfica con Windows Forms: Formularios interactivos, validación de datos y eventos bien estructurados.
